@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Mejor Amiga</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400|Dancing+Script:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', Arial, sans-serif;
+            background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+            min-height: 100vh;
+        }
+        header {
+            background: rgba(255,255,255,0.97);
+            padding: 50px 0 30px 0;
+            text-align: center;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+            position: relative;
+        }
+        .profile-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #f48fb1;
+            margin-bottom: 18px;
+            box-shadow: 0 2px 16px rgba(244,143,177,0.18);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.7rem;
+            color: #d81b60;
+            letter-spacing: 2px;
+            font-family: 'Dancing Script', cursive;
+        }
+        header p {
+            color: #555;
+            font-size: 1.2rem;
+            margin-top: 12px;
+        }
+        .heart {
+            color: #e57373;
+            font-size: 2.2rem;
+            animation: beat 1s infinite alternate;
+        }
+        @keyframes beat {
+            to { transform: scale(1.2); }
+        }
+        main {
+            max-width: 750px;
+            margin: 40px auto;
+            background: rgba(255,255,255,0.98);
+            border-radius: 22px;
+            box-shadow: 0 4px 32px rgba(0,0,0,0.10);
+            padding: 45px 35px 30px 35px;
+        }
+        .agradecimientos {
+            margin: 30px 0 40px 0;
+        }
+        .agradecimientos h2 {
+            color: #7b1fa2;
+            margin-bottom: 18px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2rem;
+        }
+        .agradecimientos ul {
+            list-style: none;
+            padding: 0;
+        }
+        .agradecimientos li {
+            background: #f3e5f5;
+            margin-bottom: 12px;
+            padding: 14px 18px;
+            border-radius: 14px;
+            color: #4a148c;
+            font-size: 1.08rem;
+            box-shadow: 0 1px 4px rgba(123,31,162,0.07);
+            display: flex;
+            align-items: center;
+        }
+        .agradecimientos li i {
+            margin-right: 10px;
+            color: #d81b60;
+        }
+        .poema {
+            background: #fff8fb;
+            border-left: 5px solid #f48fb1;
+            margin: 35px 0 25px 0;
+            padding: 22px 28px;
+            border-radius: 14px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.35rem;
+            color: #b71c5a;
+            box-shadow: 0 2px 10px rgba(244,143,177,0.08);
+            text-align: center;
+        }
+        .mensaje-final {
+            margin-top: 35px;
+            text-align: center;
+            color: #333;
+            font-size: 1.15rem;
+        }
+        .firma {
+            margin-top: 18px;
+            font-family: 'Dancing Script', cursive;
+            color: #d81b60;
+            font-size: 1.3rem;
+        }
+        footer {
+            text-align: center;
+            padding: 18px 0 10px 0;
+            color: #888;
+            font-size: 0.98rem;
+            background: transparent;
+        }
+        .social-links {
+            margin: 10px 0 0 0;
+        }
+        .social-links a {
+            color: #d81b60;
+            margin: 0 8px;
+            font-size: 1.4rem;
+            transition: color 0.2s;
+        }
+        .social-links a:hover {
+            color: #7b1fa2;
+        }
+        @media (max-width: 600px) {
+            main {
+                padding: 18px 4px;
+            }
+            header h1 {
+                font-size: 1.6rem;
+            }
+            .profile-img {
+                width: 80px;
+                height: 80px;
+            }
+            .poema {
+                font-size: 1.05rem;
+                padding: 14px 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://img.freepik.com/premium-photo/yellow-heart-isolated-white-background-generative-ai_42331-5698.jpg" alt="Foto de tu mejor amiga" class="profile-img">
+        <h1>Para la mejor amiga del mundo</h1>
+        <p>
+            <span class="heart"><i class="fas fa-heart"></i></span>
+            Gracias por existir, por tu luz y tu amistad
+            <span class="heart"><i class="fas fa-heart"></i></span>
+        </p>
+    </header>
+    <main>
+        <section class="agradecimientos">
+            <h2>Lo que más agradezco de ti</h2>
+            <ul>
+                <li><i class="fas fa-star"></i> Espero verte crecer en tu vida y que seas feliz.</li>
+                <li><i class="fas fa-star"></i> Tus consejos sinceros y tu apoyo incondicional.</li>
+                <li><i class="fas fa-star"></i> Que siempre creas en mí, incluso cuando yo dudo.</li>
+                <li><i class="fas fa-star"></i> Te deseo lo mejor y todo lo hermoso del mundo</li>
+                <li><i class="fas fa-star"></i> Tu paciencia y tu comprensión infinita.</li>
+                <li><i class="fas fa-star"></i> Que eres mi refugio y mi alegría.</li>
+                <li><i class="fas fa-star"></i> Por ser simplemente tú, única e irrepetible.</li>
+            </ul>
+        </section>
+        <div class="poema">
+            <p>
+                Eres mi sol en días nublados,<br>
+                mi risa en los momentos callados.<br>
+                Eres abrazo, eres hogar,<br>
+                contigo todo es especial.<br>
+                <br>
+                Gracias por ser mi amiga fiel,<br>
+                por tu cariño y tu papel.<br>
+                En mi vida eres canción,<br>
+                ¡Te llevo siempre en mi corazón!
+            </p>
+        </div>
+        <div class="mensaje-final">
+            <p>
+                No existen palabras suficientes para expresar lo agradecido que estoy por tenerte en mi vida.<br>
+                Eres un regalo que la vida me dio y siempre te voy a cuidar.<br>
+                <span style="color:#d81b60;font-weight:bold;">¡Te quiero mucho, mejor amiga!</span>
+            </p>
+            <div class="firma">
+                — Tu mejor amigo, Samuel Ariza 💖
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="social-links">
+            <a href="https://wa.me/" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <div style="margin-top:10px;">
+            Hecho con mucho cariño &copy; 2025
+        </div>
+    </footer>
+</body>
+</html>
